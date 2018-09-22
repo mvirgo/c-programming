@@ -25,7 +25,7 @@ double balance_calc(double balance, retire_info retire_stats) {
 void retirement(int startAge, double initial, retire_info working, retire_info retired) {
   // Set balance at initial to start
   double balance = initial;
-  int total_months = startAge;
+  int total_months = startAge - 1;
 
   for (int i = 0; i < working.months; i++) {
     total_months += 1;
