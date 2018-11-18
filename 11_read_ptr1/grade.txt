@@ -1,10 +1,8 @@
-Grading at Sun Nov 18 08:34:01 UTC 2018
+Grading at Sun Nov 18 08:36:26 UTC 2018
 Attempting to compile test.c
 gcc -o test -std=gnu99 -pedantic -Wall -Werror test.c
 compiled
-Binary files answer.txt and /dev/fd/4 differ
-Could not compare your output to the expected output 
-(explaination should be above)
-Your output did not match what we expected.
+Your file matched the expected output
+Your output matched what we expected
 
-Overall Grade: FAILED
+Overall Grade: PASSED
